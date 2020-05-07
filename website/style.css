@@ -41,7 +41,7 @@ h1{
     position: absolute;
     top: 50px;
     right: 300px;
-  
+    
 }
 .bottom-cloud{
     position: absolute;
@@ -96,11 +96,35 @@ hr{
 .blue{
     color: blue;
 }
-.contact-me{
-    width: 40%;
-    margin: 100px auto;
-    line-height: 2;
+.contaner-bottom{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.btn{
+    
+    color: white;
+    padding: 10px;
+    
+   background-color: #71c9ce;
+   border-radius: 10px;
+    
+
+}
+
+.contact-me{
+    
+    background-color: #71c9ce;
+    width: 100%;
+    line-height: 50px;
+    color: white;
+    padding-bottom: 100px;
+    
+}
+a{
+    text-decoration: none;
+}
+/*
 .contact-me .btn{
     background-color: #71c9ce;
     color: white;
@@ -109,5 +133,6 @@ hr{
     margin-top:50px;
     display: inline-block;
 }
+*/
 
     
